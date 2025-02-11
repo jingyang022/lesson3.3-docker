@@ -24,6 +24,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v6
         with:
-          #context: .
+          context: .
           push: true
-          tags: jingyang022/flask-app:v2.0
+          tags: jingyang022/flask-app:v3.0
